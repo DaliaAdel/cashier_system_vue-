@@ -24,9 +24,9 @@ label
 </style>
 
 <template>
-    <!-- <div class="text-center text-white my-5 text-uppercase">
+    <div class="text-center text-white my-5 text-uppercase">
         <h1> Cashier System</h1>
-    </div> -->
+    </div>
   <div class="card">
   <div class="card-body p-5">
     <form action="" method="post">

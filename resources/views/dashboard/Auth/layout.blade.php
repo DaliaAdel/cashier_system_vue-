@@ -7,7 +7,7 @@
     <title>Casher System</title>
 
     <style>
-        body{
+        .auth{
             /* background: rgb(2,0,36); */
             background-image: linear-gradient(0deg, rgba(2,0,36,1) 17%, rgba(3,3,31,1) 32%, rgba(158,8,97,1) 73%);
             height: 100vh;
@@ -20,7 +20,7 @@
     </style>
 </head>
 @vite('resources/js/app.js')
-<body>
+<body class="auth">
     <div id="app">
         <layout-component></layout-component>
     </div>

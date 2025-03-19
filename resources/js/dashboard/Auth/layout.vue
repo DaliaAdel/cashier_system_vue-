@@ -1,4 +1,4 @@
-<style>
+<style scoped>
 .card{
     background-color: rgba(255, 255, 255, 0.744);
     margin-top: 7.5rem;
@@ -24,9 +24,9 @@ label
 </style>
 
 <template>
-    <div class="text-center text-white my-5 text-uppercase">
+    <!-- <div class="text-center text-white my-5 text-uppercase">
         <h1> Cashier System</h1>
-    </div>
+    </div> -->
 <router-view></router-view>
 </template>
 

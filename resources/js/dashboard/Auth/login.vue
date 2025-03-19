@@ -24,15 +24,15 @@ label
 </style>
 
 <template>
-    <!-- <div class="text-center text-white my-5 text-uppercase">
+    <div class="text-center text-white my-5 text-uppercase">
         <h1> Cashier System</h1>
-    </div> -->
+    </div>
   <div class="card">
   <div class="card-body p-5">
     <form action="" method="post">
         <h1 class="card-title mb-4 text-center">Login</h1>
         <h6 class="card-subtitle mb-4 text-muted text-center">Please Enter Your Credentials Belows To Continue </h6>
-        <p class="card-text text-left">
+        <div class="card-text text-left">
             <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label ">Email</label>
             <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="name@example.com">
@@ -41,7 +41,7 @@ label
             <label for="exampleFormControlTextarea1" class="form-label">Password</label>
             <input type="password" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="123">
             </div>
-        </p>
+        </div>
 
         <div class="d-flex justify-content-between align-items-center">
             <div class="form-check">
